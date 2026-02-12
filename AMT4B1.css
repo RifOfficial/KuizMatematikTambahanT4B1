@@ -4,7 +4,7 @@ const questions = [
     answer: false
   }]
 
-const container = document.getElementById("quiz-container");
+const container = document.getElementById("AMT4B1-container");
 const scoreBox = document.getElementById("score-summary");
 
 let answeredCount = 0;
