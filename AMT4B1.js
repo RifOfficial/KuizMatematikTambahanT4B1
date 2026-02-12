@@ -2,7 +2,7 @@ const questions = [
   {
     question: "Adakah $f(x) = 2x+3$ boleh disongsangkan?",
     answer: true
-  }]
+  }];
 
 const container = document.getElementById("AMT4B1-container");
 const scoreBox = document.getElementById("score-summary");
