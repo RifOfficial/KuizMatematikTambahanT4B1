@@ -1,7 +1,7 @@
 const questions = [
   {
-    question: "$\\mathbb{N}$ is a field.",
-    answer: false
+    question: "Adakah $f(x) = 2x+3$ boleh disongsangkan?",
+    answer: true
   }]
 
 const container = document.getElementById("AMT4B1-container");
@@ -11,9 +11,8 @@ let answeredCount = 0;
 let correctCount = 0;
 
 const intro = document.createElement("intro")
-intro.innerHTML = `<p><b>Note.</b>  When some symbols are not specified, it is understood that alphabets 
-    ($x,y,z,\\dots$) represent vectors in an arbitrary vector space (capital letters $V,W,\\dots$) and 
-    Greek letters ($\\alpha,\\beta,\\gamma,\\lambda,\\dots$) represent scalars in the underlying field. </p>`
+intro.innerHTML = `<p><b>Peringatan:</b> Bagi menguji kefahaman anda, adalah dinasihatkan untuk mencuba dahulu kuiz ini tanpa sebarang rujukan.
+Jika anda ada sebarang masalah, sila maklum kepada tuan soalan ini. Sekian, terima kasih!</p>`
 container.appendChild(intro)
 
 
